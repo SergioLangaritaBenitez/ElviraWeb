@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ElviraWeb/static/css/main.1d4dbb04.chunk.css",
+    "main.js": "/ElviraWeb/static/js/main.70b851d0.chunk.js",
+    "main.js.map": "/ElviraWeb/static/js/main.70b851d0.chunk.js.map",
+    "runtime-main.js": "/ElviraWeb/static/js/runtime-main.83524ff7.js",
+    "runtime-main.js.map": "/ElviraWeb/static/js/runtime-main.83524ff7.js.map",
+    "static/js/2.8d7fa112.chunk.js": "/ElviraWeb/static/js/2.8d7fa112.chunk.js",
+    "static/js/2.8d7fa112.chunk.js.map": "/ElviraWeb/static/js/2.8d7fa112.chunk.js.map",
+    "index.html": "/ElviraWeb/index.html",
+    "precache-manifest.9bbc971f52c0ee76f6d2e33f95171621.js": "/ElviraWeb/precache-manifest.9bbc971f52c0ee76f6d2e33f95171621.js",
+    "service-worker.js": "/ElviraWeb/service-worker.js",
+    "static/css/main.1d4dbb04.chunk.css.map": "/ElviraWeb/static/css/main.1d4dbb04.chunk.css.map",
+    "static/js/2.8d7fa112.chunk.js.LICENSE.txt": "/ElviraWeb/static/js/2.8d7fa112.chunk.js.LICENSE.txt",
+    "static/media/presentation.jpg": "/ElviraWeb/static/media/presentation.9b449e49.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.83524ff7.js",
+    "static/js/2.8d7fa112.chunk.js",
+    "static/css/main.1d4dbb04.chunk.css",
+    "static/js/main.70b851d0.chunk.js"
+  ]
+}
