@@ -1,0 +1,17 @@
+
+.square {
+  position: absolute;
+
+  height: 50px;
+  width: 50px;
+  background-color:  #99c2ff;
+
+}
+.square h1 {
+  position: relative;
+  top:12px;
+  left:14px;
+  font-size: 20px;
+  color: black;
+
+}
