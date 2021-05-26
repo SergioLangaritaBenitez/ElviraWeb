@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ElviraWeb/static/css/main.1d4dbb04.chunk.css",
-    "main.js": "/ElviraWeb/static/js/main.2ac26bf5.chunk.js",
-    "main.js.map": "/ElviraWeb/static/js/main.2ac26bf5.chunk.js.map",
+    "main.js": "/ElviraWeb/static/js/main.9248bd74.chunk.js",
+    "main.js.map": "/ElviraWeb/static/js/main.9248bd74.chunk.js.map",
     "runtime-main.js": "/ElviraWeb/static/js/runtime-main.83524ff7.js",
     "runtime-main.js.map": "/ElviraWeb/static/js/runtime-main.83524ff7.js.map",
     "static/js/2.8d7fa112.chunk.js": "/ElviraWeb/static/js/2.8d7fa112.chunk.js",
     "static/js/2.8d7fa112.chunk.js.map": "/ElviraWeb/static/js/2.8d7fa112.chunk.js.map",
     "index.html": "/ElviraWeb/index.html",
-    "precache-manifest.d7ae9292c09764ff6749caea8ee52220.js": "/ElviraWeb/precache-manifest.d7ae9292c09764ff6749caea8ee52220.js",
+    "precache-manifest.ad4011c8cfb2ba3e6e1761bfafd135b9.js": "/ElviraWeb/precache-manifest.ad4011c8cfb2ba3e6e1761bfafd135b9.js",
     "service-worker.js": "/ElviraWeb/service-worker.js",
     "static/css/main.1d4dbb04.chunk.css.map": "/ElviraWeb/static/css/main.1d4dbb04.chunk.css.map",
     "static/js/2.8d7fa112.chunk.js.LICENSE.txt": "/ElviraWeb/static/js/2.8d7fa112.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.83524ff7.js",
     "static/js/2.8d7fa112.chunk.js",
     "static/css/main.1d4dbb04.chunk.css",
-    "static/js/main.2ac26bf5.chunk.js"
+    "static/js/main.9248bd74.chunk.js"
   ]
 }
