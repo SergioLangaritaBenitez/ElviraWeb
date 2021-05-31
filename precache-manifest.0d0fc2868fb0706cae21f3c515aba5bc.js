@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "10696d144acc636e48cf0f89550aa730",
+    "revision": "1742cf942c2164134ea742ae5b021777",
     "url": "/ElviraWeb/index.html"
   },
   {
