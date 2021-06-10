@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ElviraWeb/precache-manifest.724a03a895a5bdc1ae3b1e5b571f4d0b.js"
+  "/ElviraWeb/precache-manifest.01abedb64039cffaaececc7ce62fa22f.js"
 );
 
 self.addEventListener('message', (event) => {
