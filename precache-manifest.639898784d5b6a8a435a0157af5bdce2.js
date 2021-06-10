@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d7b0e1ef76bc941ea774d1c8f25590cc",
+    "revision": "54f19f96ef47d91dfcfccbff1df46d30",
     "url": "/ElviraWeb/index.html"
   },
   {
-    "revision": "cf218aef1344b673763a",
-    "url": "/ElviraWeb/static/css/main.40c2a3e9.chunk.css"
+    "revision": "404503e9f038d7dbb5f6",
+    "url": "/ElviraWeb/static/css/main.c76da0e9.chunk.css"
   },
   {
-    "revision": "ca5167e4f80a910f3ac9",
-    "url": "/ElviraWeb/static/js/2.cc252ed1.chunk.js"
+    "revision": "6680e9c30c69f216de19",
+    "url": "/ElviraWeb/static/js/2.d4c4fc55.chunk.js"
   },
   {
     "revision": "bd334d0ef4906c43eb2db7cca8066d8c",
-    "url": "/ElviraWeb/static/js/2.cc252ed1.chunk.js.LICENSE.txt"
+    "url": "/ElviraWeb/static/js/2.d4c4fc55.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cf218aef1344b673763a",
-    "url": "/ElviraWeb/static/js/main.891957f5.chunk.js"
+    "revision": "404503e9f038d7dbb5f6",
+    "url": "/ElviraWeb/static/js/main.e01d93e7.chunk.js"
   },
   {
     "revision": "9419e7dc7b8b4a78b52e",
