@@ -1,8 +1,8 @@
-.menu_button{
+.menu_button1{
   background-color: white;
   width:60px;
   height:30px;
 }
-.menu_button:disabled{
+.menu_button1:disabled{
   background-color: #A9A9A9;
 }

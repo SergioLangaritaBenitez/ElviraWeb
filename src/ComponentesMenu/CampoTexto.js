@@ -8,8 +8,8 @@ import './CampoTexto.css';
 class CampoTexto extends React.Component {
   constructor(props) {
     super(props);
+    //console.log(this.props);
     this.state = {value: ''};
-
     this.handleChange = this.handleChange.bind(this);
   }
 
@@ -18,14 +18,11 @@ class CampoTexto extends React.Component {
   }
 
   render() {
+    if (this.props.value) {
+      return(<input type="text" id={this.props.id} value={this.props.value} onChange={this.handleChange} />);
+    }else
     return (
-      <form>
-        <label>
-          Name:
-          <input type="text" value={this.state.value} onChange={this.handleChange} />
-        </label>
-        <input type="submit" value="Submit" />
-      </form>
+          <input type="text" id={this.props.id} value={this.state.value} onChange={this.handleChange} />
     );
   }
 }

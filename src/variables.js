@@ -73,14 +73,14 @@ import first from './images/first.gif';
 import no2c from './images/no2c.gif';
 
 
-  const archivo=[{"label": "FileNew", "image": news,"disabled":false, "accion":""},
-                  {"label": "FileOpen", "image": open,"disabled":false, "accion":""},
-                  {"label": "FileOpenDBC", "image": open2,"disabled":false, "accion":""},
-                  {"label": "FileImport", "image": "","disabled":false, "accion":""},
-                  {"label": "FileExport", "image": "","disabled":false, "accion":""},
-                  {"label": "FileImportBnetXbif", "image": "","disabled":false, "accion":""},
-                  {"label": "FileExportBnetXbif", "image": "","disabled":false, "accion":""},
-                  {"label": "FileOpenURL", "image": "","disabled":false,"accion":""},
+  const archivo=[{"label": "FileNew", "image": news,"disabled":true, "accion":""},
+                  {"label": "FileOpen", "image": open,"disabled":true, "accion":""},
+                  {"label": "FileOpenDBC", "image": open2,"disabled":true, "accion":""},
+                  {"label": "FileImport", "image": "","disabled":true, "accion":""},
+                  {"label": "FileExport", "image": "","disabled":true, "accion":""},
+                  {"label": "FileImportBnetXbif", "image": "","disabled":true, "accion":""},
+                  {"label": "FileExportBnetXbif", "image": "","disabled":true, "accion":""},
+                  {"label": "FileOpenURL", "image": "","disabled":true,"accion":""},
                   {"label": "FileSave", "image": save,"disabled":true,"accion":""},
                   {"label": "FileSaveAs", "image": "","disabled":true,"accion":""},
                   {"label": "FileSaveAll", "image": "","disabled":true,"accion":""},
@@ -88,54 +88,54 @@ import no2c from './images/no2c.gif';
                   {"label": "FileLoadEvidence", "image": "","disabled":true,"accion":""},
                   {"label": "FileSaveEvidence", "image": "","disabled":true,"accion":""},
                   {"label": "FileClose", "image": "","disabled":true,"accion":""},
-                  {"label": "FileExit", "image": "","disabled":false,"accion":""},
+                  {"label": "FileExit", "image": "","disabled":true,"accion":""},
                 ];
 
 
   const editar=[{"label": "EditUndo", "image": undo,"disabled":true,"accion":""},
-                  {"label": "EditRedo", "image": redo,"disabled":false,"accion":""},
-                  {"label": "EditCut", "image": cut,"disabled":false,"accion":""},
+                  {"label": "EditRedo", "image": redo,"disabled":true,"accion":""},
+                  {"label": "EditCut", "image": cut,"disabled":true,"accion":""},
                   {"label": "EditCopy", "image": copy,"disabled":true,"accion":""},
                   {"label": "EditPaste", "image": paste,"disabled":true,"accion":""},
-                  {"label": "EditDelete", "image": "","disabled":false,"accion":""},
-                  {"label": "EditSelectAll", "image": "","disabled":false,"accion":""},
-                  {"label": "EditSelect", "image": pointer,"disabled":false,"accion":"chanceNodeButton"},
-                  {"label": "EditSelect", "image": oval,"disabled":false,"accion":"chanceNodeButton"},
-                  {"label": "EditSelect", "image": doubleoval,"disabled":false,"accion":"chanceNodeButton"},
-                  {"label": "EditSelect", "image": ovalC,"disabled":false,"accion":"chanceNodeButton"},
-                  {"label": "EditDecision", "image": square2,"disabled":false,"accion":"decisionNodeButton"},
-                  {"label": "EditUtility", "image": hexagon2,"disabled":false,"accion":"utilityNodeButton"},
-                  {"label": "EditLink", "image": arrow,"disabled":false,"accion":""},
-                  {"label": "EditConstraints", "image": constraints,"disabled":false,"accion":""},
+                  {"label": "EditDelete", "image": "","disabled":true,"accion":""},
+                  {"label": "EditSelectAll", "image": "","disabled":true,"accion":""},
+                  {"label": "EditSelect", "image": pointer,"disabled":true,"accion":""},
+                  {"label": "EditSelect", "image": oval,"disabled":true,"accion":"chanceNodeButton"},
+                  {"label": "EditSelect", "image": doubleoval,"disabled":true,"accion":"chanceNodeButton"},
+                  {"label": "EditSelect", "image": ovalC,"disabled":true,"accion":"chanceNodeButton"},
+                  {"label": "EditDecision", "image": square2,"disabled":true,"accion":"decisionNodeButton"},
+                  {"label": "EditUtility", "image": hexagon2,"disabled":true,"accion":"utilityNodeButton"},
+                  {"label": "EditLink", "image": arrow,"disabled":true,"accion":""},
+                  {"label": "EditConstraints", "image": constraints,"disabled":true,"accion":""},
                 ];
 
   const ver=[{"label": "ViewByName", "image": "","disabled":true,"accion":""},
-                  {"label": "ViewByTitle", "image": "","disabled":false,"accion":""},
-                  {"label": "EditinfluenceLink", "image": influence,"disabled":false,"accion":""},
+                  {"label": "ViewByTitle", "image": "","disabled":true,"accion":""},
+                  {"label": "EditinfluenceLink", "image": influence,"disabled":true,"accion":""},
                   {"label": "ViewsetPrecision", "image": "","disabled":true,"accion":""},
                 ];
 
   const tareas=[{"label": "TasksFusion", "image": "","disabled":true,"accion":""},
-                  {"label": "AnalysisSensitivityAnalysis", "image": "","disabled":false,"accion":""},
-                  {"label": 3, "image": sensitivity,"disabled":false,"accion":""},
+                  {"label": "AnalysisSensitivityAnalysis", "image": "","disabled":true,"accion":""},
+                  {"label": 3, "image": sensitivity,"disabled":true,"accion":""},
                 ];
 
   const opciones=[{"label": "OptionsPropagationMethod", "image": "","disabled":true,"accion":""},
-                  {"label": "OptionsGenerateDBC", "image": "","disabled":false,"accion":""},
-                  {"label": "OptionsInferenceOptions", "image": options,"disabled":false,"accion":""},
-                  {"label": "OptionsExplanationOptions", "image": explain,"disabled":false,"accion":""},
+                  {"label": "OptionsGenerateDBC", "image": "","disabled":true,"accion":""},
+                  {"label": "OptionsInferenceOptions", "image": options,"disabled":true,"accion":""},
+                  {"label": "OptionsExplanationOptions", "image": explain,"disabled":true,"accion":""},
                 ];
 
   const ventana=[{"label": "WindowCascade", "image": "","disabled":true,"accion":""},
-                  {"label": "WindowMinimizeAll", "image": "","disabled":false,"accion":""},
-                  {"label": "WindowRestoreAll", "image": "","disabled":false,"accion":""},
+                  {"label": "WindowMinimizeAll", "image": "","disabled":true,"accion":""},
+                  {"label": "WindowRestoreAll", "image": "","disabled":true,"accion":""},
                   {"label": "WindowPrevious", "image": "","disabled":true,"accion":""},
                   {"label": "WindowNext", "image": "","disabled":true,"accion":""},
-                  {"label": "WindowShow", "image": "","disabled":false,"accion":""},
+                  {"label": "WindowShow", "image": "","disabled":true,"accion":""},
 
                 ];
 
-  const ayuda=[{"label": "Help", "image": about,"disabled":false,"accion":""},
+  const ayuda=[{"label": "Help", "image": about,"disabled":true,"accion":""},
                 ];
 
   export const principal=[{"label": "File", "image": "","disabled":false,"secundario":archivo},
@@ -215,10 +215,24 @@ const inferencia=[{"logo": saveCase, "label": "ExplanationStorelabel", "accion":
 
     for (var i = 0; i < enlaces.length; i++) {
       var iX = document.getElementById(enlaces[i].inicioID).style.left.substring(0, document.getElementById(enlaces[i].inicioID).style.left.length - 2);
+      var aux =  parseInt(iX, 10);
+      aux=aux+25
+      iX=aux.toString();
+
       var iY = document.getElementById(enlaces[i].inicioID).style.top.substring(0, document.getElementById(enlaces[i].inicioID).style.top.length - 2);
+      var aux =  parseInt(iY, 10);
+      aux=aux+12
+      iY=aux.toString();
 
       var fX =document.getElementById(enlaces[i].destinoID).style.left.substring(0, document.getElementById(enlaces[i].destinoID).style.left.length - 2);
+      var aux =  parseInt(fX, 10);
+      aux=aux+5
+      fX=aux.toString();
+
       var fY = document.getElementById(enlaces[i].destinoID).style.top.substring(0, document.getElementById(enlaces[i].destinoID).style.top.length - 2);
+      var aux =  parseInt(fY, 10);
+      aux=aux+5
+      fY=aux.toString();
 
       var shape = new createjs.Shape();
       shape.dash = shape.graphics.sd(0, 0).command;
@@ -285,7 +299,7 @@ const inferencia=[{"logo": saveCase, "label": "ExplanationStorelabel", "accion":
       aux=document.getElementById(i.destinoID).getAttribute('padres')
       aux+="/"+i.inicioID
     }
-    console.log(aux);
+
     document.getElementById(i.destinoID).setAttribute('padres',aux)
     //nodos[i.destinoPosV].padres.push(i.inicioID)
 
@@ -316,6 +330,7 @@ export function dibujar() {
 }
 
 export function dibujarId(id) {
+
   var dibujo=ReactDOM.render(
     <div>
       <div id="bloque">
@@ -436,6 +451,7 @@ export function llamar() {
   client.open("POST", url, false);
   client.setRequestHeader("Content-Type", "application/json");
   var grafo=getGraph(nodos,enlaces)
+  console.log(grafo);
   client.send(grafo);
   if (client.status == 200)
       return client.responseText

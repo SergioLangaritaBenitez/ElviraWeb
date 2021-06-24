@@ -32,11 +32,11 @@ function CrearBoton(props) {
   const eti=datos.label
 
   return (
-    <button id="menu_button" class="menu_button"
+    <button id="menu_button" class="menu_button1"
       onClick={() => close_clip(datos.accion)}
       disabled={datos.disabled}
       title={file.[eti]}>
-        <img src={datos.logo} />
+        <img src={datos.logo} alt="Icon" />
       </button>
 
   );
@@ -150,7 +150,6 @@ div.addEventListener('click', function(event) {
 
 
 document.addEventListener('keydown', function(event) {
-    event.preventDefault();
     if (event.ctrlKey) {
       //console.log("control down");
       ctrldown = true
@@ -159,7 +158,6 @@ document.addEventListener('keydown', function(event) {
 }, true);
 
 document.addEventListener('keyup', function(event) {
-    event.preventDefault();
       //console.log("control up");
       ctrldown = false
 }, true);

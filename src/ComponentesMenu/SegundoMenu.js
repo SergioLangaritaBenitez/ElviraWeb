@@ -14,7 +14,7 @@ import oval from '../images/oval.jpg';
 import arrow from '../images/arrow.gif';
 
 import Buttom from './Buttom';
-
+import CampoTexto from './CampoTexto';
 
 /*
 function Buttom() {
@@ -31,7 +31,7 @@ class SegundoMenu extends React.Component {
             <option value="edicion" selected="yes">Edición</option>
             <option value="inferencia">Inferencia </option>
           </select>
-            <div >
+            <div  id="bloque-select">
               {this.props.inferencia
                 ?<div >
                 </div>
@@ -49,7 +49,7 @@ export default SegundoMenu;
 
 
 function close_clip(e){
-  console.log(e);
+  //console.log(e);
 }
 
 

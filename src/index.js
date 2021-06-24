@@ -11,8 +11,6 @@ import Menu from './ComponentesMenu/Menu';
 
 import {dibujar} from './variables.js';
 
-import CampoTexto from './ComponentesMenu/CampoTexto'
-
 export var menu=ReactDOM.render(
   <div>
     <Menu />

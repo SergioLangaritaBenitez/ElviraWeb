@@ -9,9 +9,9 @@ import {nodos} from '../variables.js'
 import {enlaces} from '../variables.js'
 import {nuevaFlecha} from '../variables.js'
 import {eliminarFlecha} from '../variables.js'
-
+import CampoTexto from '../ComponentesMenu/CampoTexto'
 import TextField from '@material-ui/core/TextField';
-
+import CampoNum from '../ComponentesMenu/CampoNum'
 /*
 <div class="componentWraper">
   <p class='componentTitle'>{dialog.NetPropertiesNetTypelabel}Clase de Nodo</p>
@@ -41,7 +41,6 @@ function anadirValor(nodo) {
   var e = document.getElementById("valores");
   if (e != null) {
     var valor=e.value
-    console.log(valor);
 
     var aux= []
     if (document.getElementById(nodo).getAttribute('valores') == "") {
@@ -59,7 +58,6 @@ function anadirValor(nodo) {
 
 function anadirdatos(nodo) {
   var datos = document.getElementById(nodo).getAttribute('datos')
-  console.log(datos);
   if (datos=="") {
     datos="0.0"
   }else{
@@ -74,7 +72,6 @@ function eliminarValor(nodo) {
   var indice
   var nueva=""
   for (var i = 0; i < cadena.length; i++) {
-    console.log(valor+ " " +cadena[i]);
     if (cadena[i]!=valor) {
       if (nueva=="") {
         nueva=cadena[i]
@@ -120,10 +117,12 @@ function Guardar(nodo) {
   var total = totalDatos(padres)
 
   for (var i = 0; i < total*valores.length; i++) {
-    if (nueva=="") {
-      nueva=document.getElementById('dato'+[i]).value
-    }else {
-      nueva+="/"+document.getElementById('dato'+[i]).value
+    if (document.getElementById('dato'+[i]) !=null) {
+      if (nueva=="") {
+        nueva=document.getElementById('dato'+[i]).value
+      }else {
+        nueva+="/"+document.getElementById('dato'+[i]).value
+      }
     }
   }
   document.getElementById(nodo).setAttribute("datos",nueva)
@@ -320,7 +319,7 @@ function tablaColumnas(nodo,datos,total,index,padre) {
 
     //}
   }
-  console.log(veces);
+
   /*for (var i = 0; i < otrosvalores.length; i++) {
     for (var x=0;x< columna;x++) {
       items.push(<td>{otrosvalores[i]}</td>)
@@ -333,10 +332,8 @@ function tablaColumnas(nodo,datos,total,index,padre) {
 }
 
 function numeroText(identifi,value) {
-  if (!value) {
-    value="0.5"
-  }
-  return <td><input class="inputtext" type="number" id={identifi} value={value}/></td>;
+
+  return <td><CampoNum id={identifi} value={value}/></td>;
 }
 
 function tablas(nodo) {
@@ -368,7 +365,6 @@ var valorestipo = ["presente/ausente","si/no","positivo/negativo","leve/severo",
   class NodeInfo extends React.Component {
 
     render() {
-
         return <div id='popup'>
 
           <h1>{menu.PopupNodePropertieslabel}</h1>
@@ -377,17 +373,13 @@ var valorestipo = ["presente/ausente","si/no","positivo/negativo","leve/severo",
 
           <div class="info">
             <p>{dialog.NetPropertiesNamelabel}</p>
-            <input  type="text" class="inputtext" id="name"
-            value={document.getElementById(this.props.elnodo).getAttribute("nombre")}
-             />
-
+            <CampoTexto id="name" value={document.getElementById(this.props.elnodo).getAttribute("nombre")}/>
           </div>
 
           <div class="info">
             <p>{dialog.NetPropertiesNetTitlelabel}</p>
-            <input class="inputtext" type="text" id="NetTitle"
-            value={document.getElementById(this.props.elnodo).getAttribute("titulo")}/>
-            </div>
+            <CampoTexto id="NetTitle" value={document.getElementById(this.props.elnodo).getAttribute("titulo")}/>
+          </div>
 
           <div class="info">
                 <p>{dialog.EditVariableRelevancelabel}</p>
@@ -399,8 +391,8 @@ var valorestipo = ["presente/ausente","si/no","positivo/negativo","leve/severo",
 
               <div class="info">
                 <p>{dialog.NetPropertiesCommentlabel}</p>
-                <input class="inputtext" type="text" id="Comment"
-                value={document.getElementById(this.props.elnodo).getAttribute("comentario")}/>
+                <CampoTexto id="Comment" value={document.getElementById(this.props.elnodo).getAttribute("comentario")}/>
+
                 <br/>
               </div>
 

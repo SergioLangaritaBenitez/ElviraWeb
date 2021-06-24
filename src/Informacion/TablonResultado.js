@@ -48,7 +48,9 @@ function mensaje(cadena) {
         var array = aux.split("/");
         var listItems = array.map((cadena) => mensaje(cadena));
         return <div id='popup'>
-            {listItems}
+            <p>
+            {this.props.elresultado}
+            </p>
             </div>
 
         }

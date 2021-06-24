@@ -6,7 +6,7 @@ import {dialog} from '../localize/Dialogs_sp.js';
 import {menu} from '../localize/Menus_sp2.js';
 
 import NodeInfo from './NodeInfo';
-import NewProject from './NewProject';
+
 import TablonResultado from './TablonResultado';
 function dibujarTablon(props) {
   if (props.elnodo != undefined) {
