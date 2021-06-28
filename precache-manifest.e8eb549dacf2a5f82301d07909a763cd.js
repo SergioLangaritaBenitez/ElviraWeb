@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e0afd61d9fadb8868fa736414f6e9817",
+    "revision": "1a29966882581f837140955883f244d1",
     "url": "/ElviraWeb/index.html"
   },
   {
-    "revision": "26db55a07a95d5eda70e",
+    "revision": "468bbf7a804f6c63d9db",
     "url": "/ElviraWeb/static/css/main.26ec1631.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ElviraWeb/static/js/2.c00a75f7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "26db55a07a95d5eda70e",
-    "url": "/ElviraWeb/static/js/main.26b2cb92.chunk.js"
+    "revision": "468bbf7a804f6c63d9db",
+    "url": "/ElviraWeb/static/js/main.2352be8b.chunk.js"
   },
   {
     "revision": "9419e7dc7b8b4a78b52e",
