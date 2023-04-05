@@ -1,0 +1,24 @@
+.circle {
+  display: flex;
+  width: 75px;
+  height: 50px;
+  background-color: rgb(4, 179, 91);
+  border-radius: 100%;
+  
+  justify-content: center;
+  align-items: center;
+}
+.circle p{
+  font-size: 14px;
+}
+
+.inputHandle {
+  width: 1px;
+  height: 1px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 100%;
+  display: inline-block;
+
+ 
+}

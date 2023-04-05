@@ -16,41 +16,33 @@ import './Desplegable.css';
         if(data.secundario && data.disabled){
           return <li key={data.label.toString()} class="disabled">
                     <img src={data.image} alt="Icon"/>
-                    <a href="#">{file.[eti]}</a>
                     <Desplegabledibujo propiedades={file} numbers={data.secundario} />;
                   </li>;
         }else if (data.secundario) {
           return <li key={data.label.toString()}>
                     <img src={data.image} alt="Icon" />
-                    <a href="#">{file.[eti]}</a>
                     <Desplegabledibujo propiedades={file} numbers={data.secundario} />;
                   </li>;
         }else if (data.disabled) {
           return <li key={data.label.toString()} class="disabled">
                     <img src={data.image} alt="Icon" />
-                    <a href="#">{file.[eti]}</a>
                   </li>;
         }else return <li key={data.label.toString()}>
                       <img src={data.image} alt="Icon"/>
-                      <a href="#">{file.[eti]}</a>
                     </li>;
       }else{
         if(data.secundario && data.disabled){
           return <li key={data.label.toString()} class="disabled">
-                    <a href="#">{file.[eti]}</a>
                     <Desplegabledibujo propiedades={file} numbers={data.secundario} />;
                   </li>;
         }else if (data.secundario) {
           return <li key={data.label.toString()}>
-                    <a href="#">{file.[eti]}</a>
                     <Desplegabledibujo propiedades={file} numbers={data.secundario} />;
                   </li>;
         }else if (data.disabled) {
           return <li key={data.label.toString()} class="disabled">
-                    <a href="#">{file.[eti]}</a>
                   </li>;
         }else return <li key={data.label.toString()}>
-                      <a href="#">{file.[eti]}</a>
                     </li>;
       }
       }

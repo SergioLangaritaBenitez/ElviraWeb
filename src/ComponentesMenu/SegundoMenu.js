@@ -13,7 +13,7 @@ import {dibujarResultado} from '../variables.js'
 import oval from '../images/oval.jpg';
 import arrow from '../images/arrow.gif';
 
-import Buttom from './Buttom';
+//import Buttom from './ButtomLateral';
 import CampoTexto from './CampoTexto';
 
 /*
@@ -36,8 +36,6 @@ class SegundoMenu extends React.Component {
                 ?<div >
                 </div>
                 :<div class='bloque-boton'>
-                <Buttom propiedades={this.props.propiedades} logo={oval} label="EditChancelabel" accion="chanceNodeButton" />
-                <Buttom propiedades={this.props.propiedades} logo={arrow} label="EditLinklabel" accion="directedLinkButton" />
                 </div>
               }
             </div>
